@@ -66,9 +66,7 @@ a {
 /*******************************************/
 
 header nav {
-  float: right;
-  font-size: 1rem;
-  margin-top: 15px;
+ display: none;
 }
 
 header .logo {
@@ -79,6 +77,14 @@ header .logo {
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
+}
+
+.fa-bars {
+  display: inline-block;
+  color: #f9e42e;
+  float: right;
+  font-size: 1.5rem;
+  margin-top: .4em;
 }
 
 .cta {
@@ -376,6 +382,18 @@ EQUAL TO OR GREATER THAN 1024PX
   html {
     font-size: 26px;
   }
+
+  .fa-bars {
+    display: none;
+  }
+
+  header nav {
+    display: inline-block;
+    float: right;
+    font-size: 1rem;
+    margin-top: .7em;
+  }
+
 
   /*
   LANDING PAGE
