@@ -251,7 +251,7 @@ footer p {
 .intro {
   background: url("../images/header_bg.jpg") no-repeat top center #131e27;
   background-size: cover;
-  padding: .8em 0 7.6em;
+  padding: 0 0 7.6em;
 }
 
 .intro h2 {
