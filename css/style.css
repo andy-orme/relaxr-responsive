@@ -153,20 +153,6 @@ footer p {
   color: #f9e42e;
 }
 
-.blog-main {
-  width: 70%;
-  float: left;
-}
-
-.sidebar {
-  float: right;
-  width: 30%;
-}
-
-.sidebar section {
-  padding-left: .8em;
-}
-
 .post {
   border-bottom: 1px solid #043049;
   padding-bottom: 1.5em;
@@ -186,6 +172,7 @@ footer p {
 
 .post img {
   margin-bottom: 1em;
+  width: 100%;
 }
 
 .post p {
@@ -239,6 +226,10 @@ footer p {
 .sidebar p a {
   color: #043049;
   font-weight: 600;
+}
+
+.sidebar section img {
+  margin-bottom: 1.5em;
 }
 
 /******************************************
@@ -319,7 +310,6 @@ EQUAL TO OR GREATER THAN 480PX
   /*
   GENERAL
   */
-  
   html {
     font-size: 18px;
   }
@@ -328,7 +318,6 @@ EQUAL TO OR GREATER THAN 480PX
     padding: .4em 0;
     width: 280px;
   }
-
 }
 
 /************ 
@@ -339,7 +328,6 @@ EQUAL TO OR GREATER THAN 768PX
   /*
   GENERAL
   */
-  
   html {
     font-size: 22px;
   }
@@ -347,7 +335,6 @@ EQUAL TO OR GREATER THAN 768PX
   /*
   LANDING PAGE
   */
-
   .benefits p, .benefits ul {
     width: 75%;
   }
@@ -356,6 +343,22 @@ EQUAL TO OR GREATER THAN 768PX
     width: 55%;
   }
 
+  /*
+  BLOG
+  */
+  .sidebar section {
+    padding-left: 1.5em;
+  }
+
+  .blog-main {
+    width: 70%;
+    float: left;
+  }
+
+  .sidebar {
+    float: right;
+    width: 30%;
+  }
 }
 
 /************
@@ -366,7 +369,6 @@ EQUAL TO OR GREATER THAN 1024PX
   /*
   GENERAL
   */
-  
   html {
     font-size: 26px;
   }
@@ -374,7 +376,6 @@ EQUAL TO OR GREATER THAN 1024PX
   .benefits p, .benefits ul {
     width: 60%;
   }
-
 }
 
 
