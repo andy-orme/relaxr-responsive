@@ -229,7 +229,7 @@ footer p {
 }
 
 .sidebar section img {
-  margin-bottom: 1.5em;
+  margin-bottom: 3em;
 }
 
 /******************************************
@@ -255,7 +255,7 @@ footer p {
 }
 
 .benefits {
-  padding: 3.8em 0 3.2em;
+  padding: 2.2em 0 1.8em;
 }
 
 h3 {
@@ -335,6 +335,10 @@ EQUAL TO OR GREATER THAN 768PX
   /*
   LANDING PAGE
   */
+  .benefits {
+    padding: 3.8em 0 3.2em;
+  }
+
   .benefits p, .benefits ul {
     width: 75%;
   }
@@ -373,6 +377,9 @@ EQUAL TO OR GREATER THAN 1024PX
     font-size: 26px;
   }
 
+  /*
+  LANDING PAGE
+  */
   .benefits p, .benefits ul {
     width: 60%;
   }
