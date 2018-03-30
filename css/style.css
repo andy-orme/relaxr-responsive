@@ -77,10 +77,11 @@ header .logo {
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
+  display: inline-block;
 }
 
 .fa-bars {
-  display: inline-block;
+  /*display: inline-block;*/
   color: #f9e42e;
   float: right;
   font-size: 1.5rem;
@@ -149,10 +150,11 @@ footer p {
   margin-bottom: 3em;
 }
 
-.main-header nav ul li {
-  display: inline-block;
-  margin: 0 0 0 1.6em;
+.main-header nav {
+  display: block;
+/*  margin: 0 0 0 1.6em;*/
   font-size: 1rem;
+  clear: both;
 }
 
 .main-header nav ul li a {
@@ -388,10 +390,21 @@ EQUAL TO OR GREATER THAN 1024PX
   }
 
   header nav {
-    display: inline-block;
+    display: block;
     float: right;
     font-size: 1rem;
     margin-top: .7em;
+  }
+
+  .main-header nav {
+    display: block;
+    clear: none;
+  }
+
+  .main-header nav ul li {
+    display: inline-block;
+    margin: 0 0 0 1.6em;
+    font-size: 1rem;
   }
 
 
