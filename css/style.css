@@ -65,10 +65,6 @@ a {
 /* GENERAL
 /*******************************************/
 
-header .logo {
-  float: left;
-}
-
 .logo {
   color: #fff;
   font-size: 2rem;
@@ -77,7 +73,6 @@ header .logo {
 }
 
 .fa-bars {
-  /*display: inline-block;*/
   color: #f9e42e;
   float: right;
   font-size: 1.5rem;
@@ -397,7 +392,6 @@ EQUAL TO OR GREATER THAN 1024PX
     margin: 0 0 0 1.6em;
     font-size: 1rem;
   }
-
 
   /*
   LANDING PAGE
