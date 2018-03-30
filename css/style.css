@@ -65,10 +65,6 @@ a {
 /* GENERAL
 /*******************************************/
 
-header nav {
- display: none;
-}
-
 header .logo {
   float: left;
 }
@@ -151,8 +147,7 @@ footer p {
 }
 
 .main-header nav {
-  display: block;
-/*  margin: 0 0 0 1.6em;*/
+  display: none;
   font-size: 1rem;
   clear: both;
 }
@@ -389,15 +384,11 @@ EQUAL TO OR GREATER THAN 1024PX
     display: none;
   }
 
-  header nav {
-    display: block;
+  .main-header nav {
+    display: inline-block;
     float: right;
     font-size: 1rem;
     margin-top: .7em;
-  }
-
-  .main-header nav {
-    display: block;
     clear: none;
   }
 
