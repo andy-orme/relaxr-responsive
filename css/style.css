@@ -380,7 +380,7 @@ EQUAL TO OR GREATER THAN 1024PX
   }
 
   .main-header nav {
-    display: inline-block;
+    display: block;
     float: right;
     font-size: 1rem;
     margin-top: .7em;
